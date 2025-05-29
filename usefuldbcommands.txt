@@ -1,0 +1,1 @@
+mysql -u root -p -h 127.0.0.1 -P 3306 < tokenmint_global_chain_provider_info_init.sql.sql

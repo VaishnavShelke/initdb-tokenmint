@@ -1,7 +1,7 @@
-CREATE DATABASE  IF NOT EXISTS `game_info_instance_1001`;
+CREATE DATABASE  IF NOT EXISTS `tokenmint_global`;
 
 
-CREATE TABLE IF NOT EXISTS `game_info_instance_1001`.`game_items_on_chain_info` (
+CREATE TABLE IF NOT EXISTS `tokenmint_global`.`game_items_on_chain_info` (
   `item_id` varchar(20) NOT NULL,
   `item_contract_id` varchar(20) NOT NULL,
   `token_issuer_address` varchar(100) NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `game_info_instance_1001`.`game_items_on_chain_info` 
 );
 
 
-INSERT INTO `game_info_instance_1001`.`game_items_on_chain_info` (
+INSERT INTO `tokenmint_global`.`game_items_on_chain_info` (
   `item_id`,
   `item_contract_id`,
   `token_issuer_address`,
